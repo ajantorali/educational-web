@@ -1,0 +1,45 @@
+.web-course{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.left-edu{
+    position: sticky;
+    overflow: auto;
+    width: 23%;
+    height: 100vh;
+    padding: 5px;
+    background-color: grey;
+}
+.left-edu h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+.left-edu ul{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.left-edu ul a{
+    font-size: 1.8em;
+    color: black;
+    padding: 10px 0;
+}
+.left-edu ul a:hover{
+    padding-right: 10px;
+}
+.right-edu{
+    width: 75%;
+    height: 100vh;
+    background-color: black;
+}
+.video-html{
+    width: 100%;
+}
+.title-html h1{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
